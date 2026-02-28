@@ -1,0 +1,12 @@
+{
+  "schedule": "*/30 * * * * *",
+  "apiUrl": "https://api.coingecko.com/api/v3/simple/price?ids=pax-gold&vs_currencies=usd",
+  "evms": [
+    {
+      "storageAddress": "0xa17CF997C28FF154eDBae1422e6a50BeF23927F4",
+      "priceConsumerAddress": "0x95e10BaC2B89aB4D8508ccEC3f08494FcB3D23cb",
+      "chainName": "ethereum-testnet-sepolia",
+      "gasLimit": "500000"
+    }
+  ]
+}

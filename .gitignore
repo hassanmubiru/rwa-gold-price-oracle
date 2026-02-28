@@ -1,0 +1,25 @@
+# Dependency directories
+rwa-oracle-workflow/node_modules/
+rwa-oracle-workflow/dist/
+
+# CRE build artifacts
+**/.cre-build/
+**/wasm/
+
+# Environment & secrets — NEVER commit these
+.env
+*.env.local
+*.env.*.local
+
+# Private keys or seed phrases
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Bun lockfile (keep for reproducibility but optional)
+# bun.lockb
