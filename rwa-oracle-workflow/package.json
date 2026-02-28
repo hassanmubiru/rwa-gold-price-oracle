@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "private": true,
   "scripts": {
-    "dev": "bun run main.ts",
+    "dev": "cre workflow simulate . --target staging-settings",
     "postinstall": "bun x cre-setup"
   },
   "license": "MIT",
