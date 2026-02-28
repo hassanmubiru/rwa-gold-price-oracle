@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "private": true,
   "scripts": {
-    "dev": "cre workflow simulate . --target staging-settings",
+    "dev": "cd .. && cre workflow simulate ./rwa-oracle-workflow --target staging-settings",
     "postinstall": "bun x cre-setup"
   },
   "license": "MIT",
